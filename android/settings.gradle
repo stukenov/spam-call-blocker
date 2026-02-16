@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name = 'antibank'
+
+apply from: file("../node_modules/@react-native/gradle-plugin/settings-plugin.gradle")
+includeReactNativeAar()
